@@ -27,3 +27,26 @@ html[lang=en] .project-line,html[lang=en] .project-description{min-height:0}html
 @media(max-width:1000px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.interest-strip{column-gap:22px}header .brand{font-size:20.52px}.hero-art{transform:scale(.8)}.hero{gap:20px}}
 @media(max-width:760px){.site{padding:0 22px}.hero-art{transform:scale(.95)}.hero-description{font-size:18.36px}.hero-meta{font-size:15.12px}.hero-meta span+span{border:0;padding-left:0}.hero-actions{gap:18px}.project-card{padding:22px}.project-line,.project-description{font-size:17.28px}.project-bottom{font-size:14.04px}.project-links{font-size:15.12px}.interest{font-size:15.12px}.section-heading{align-items:flex-start}.section-heading h2{font-size:33.48px}.section-heading p{font-size:17.28px}.about-copy p{font-size:18.36px}.channel p{font-size:17.28px;max-width:290px}.channel{min-height:510px}.post-row p{font-size:17.28px}.post-row h3{font-size:21.6px}.article-body p,.article-body li,.article-summary{font-size:19.44px}.footer-brand{font-size:18.36px}.footer-brand span{font-size:15.12px}.preferences{gap:6px}.brand{letter-spacing:0}.brand-en{font-size:10.8px}.about-facts span{font-size:15.12px}html[lang=en] .hero-actions{gap:18px}html[lang=en] .brand{font-size:20.52px}}
 @media(max-width:520px){.project-grid{grid-template-columns:minmax(0,1fr)}.hero h1,html[lang=en] .hero h1{font-size:49.68px}.brand{font-size:19.44px}.brand-icon{width:36px;height:36px}.section-heading{flex-wrap:wrap}.notes-count{font-size:15.12px}.hero-art{max-width:320px}.orbit{width:260px;height:260px}.orbit-two{width:300px;height:180px}.code-note{left:-3px}.music-note{right:-3px}.interest-strip{gap:14px}.strip-label{width:100%}.interest{gap:5px}.footer-brand span{display:block;margin-left:0}}
+
+/* Give DINCOROS more room: its condensed glyphs need a larger reading size. */
+html[lang=en] body{font-size:22px;line-height:1.9;letter-spacing:.65px}
+html[lang=en] h1{font-size:68px;line-height:1.35;letter-spacing:1px}
+html[lang=en] h2,html[lang=en] .section-heading h2,html[lang=en] .channel h2,html[lang=en] .about h2{font-size:42px;line-height:1.5;letter-spacing:.8px}
+html[lang=en] .hero-description,html[lang=en] .section-heading p,html[lang=en] .project-line,html[lang=en] .project-description,html[lang=en] .post-row p,html[lang=en] .channel p,html[lang=en] .about-copy p{font-size:23px;line-height:1.85;letter-spacing:.7px}
+html[lang=en] .hero-description{max-width:580px}
+html[lang=en] .article-body p,html[lang=en] .article-body li,html[lang=en] .article-summary{font-size:25px;line-height:1.9;letter-spacing:.65px}
+html[lang=en] .article-main h1{font-size:50px;line-height:1.45}
+html[lang=en] .article-body h2{font-size:36px}
+html[lang=en] .article-body h3{font-size:29px}
+html[lang=en] .project-card h3,html[lang=en] .post-row h3{font-size:28px;line-height:1.5;letter-spacing:.5px}
+html[lang=en] nav a,html[lang=en] .button,html[lang=en] .text-link,html[lang=en] .filters button,html[lang=en] .interest,html[lang=en] .footer-brand{font-size:21px;letter-spacing:.7px}
+html[lang=en] .hero-meta,html[lang=en] .project-bottom,html[lang=en] .project-links,html[lang=en] .post-row time,html[lang=en] .post-category,html[lang=en] .about-facts span,html[lang=en] .article-meta,html[lang=en] .back-link,html[lang=en] .quiet-link,html[lang=en] footer,html[lang=en] .footer-brand span,html[lang=en] .notes-count,html[lang=en] .language-toggle,html[lang=en] .theme-toggle{font-size:18px;letter-spacing:.6px}
+html[lang=en] .brand{font-size:26px}
+html[lang=en] .brand-en{font-size:13px}
+html[lang=en] .eyebrow,html[lang=en] .hero .eyebrow,html[lang=en] .strip-label{font-size:16px;letter-spacing:1.5px}
+html[lang=en] .project-bottom{align-items:flex-start}
+html[lang=en] .project-links{gap:14px}
+html[lang=en] .button{padding:13px 23px}
+html[lang=en] .channel{min-height:380px}
+@media(min-width:1001px){html[lang=en] .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}html[lang=en] header nav{gap:24px}html[lang=en] .header-github{display:none}}
+@media(max-width:760px){html[lang=en] .hero h1{font-size:60px}html[lang=en] .brand{font-size:24px}html[lang=en] h2,html[lang=en] .section-heading h2,html[lang=en] .channel h2,html[lang=en] .about h2{font-size:38px}html[lang=en] .hero-description,html[lang=en] .section-heading p,html[lang=en] .project-line,html[lang=en] .project-description,html[lang=en] .post-row p,html[lang=en] .channel p,html[lang=en] .about-copy p{font-size:22px}html[lang=en] .article-body p,html[lang=en] .article-body li,html[lang=en] .article-summary{font-size:23px}html[lang=en] .article-main h1{font-size:42px}html[lang=en] .project-grid{grid-template-columns:minmax(0,1fr)}html[lang=en] .channel{min-height:560px}html[lang=en] .channel p{max-width:100%}html[lang=en] .hero-actions{gap:22px}html[lang=en] .brand-en{font-size:11px}}
