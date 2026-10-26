@@ -25,7 +25,7 @@ function updateTheme(theme) {
   themeToggle?.setAttribute('aria-label', english ? `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme` : `切换到${theme === 'dark' ? '明亮' : '暗色'}主题`);
   const label = document.querySelector('.theme-label');
   if (label) label.textContent = english ? (theme === 'dark' ? 'Dark' : 'Light') : (theme === 'dark' ? '暗色' : '明亮');
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#151e19' : '#f8f9f5');
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#1c2230' : '#f7f8fc');
 }
 updateTheme(document.documentElement.dataset.theme);
 themeToggle?.addEventListener('click', () => {
