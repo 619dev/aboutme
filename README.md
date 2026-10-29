@@ -65,7 +65,7 @@ Markdown 为轻量子集：支持标题、段落、无序列表、粗体、行�
 - 站点图标：`public/favicon.svg`
 - 文章：`content/posts/*.md`
 
-项目简介根据对应公开 GitHub 仓库整理，每张项目卡片均链接至来源。频道保留用户提供的 https://sonavue.channel/ 入口。中文页面使用提供的「得意黑」字体，字体文件随站点本地部署（`public/fonts/smiley-sans.ttf`），不依赖 Google Fonts。英文页面使用提供的 DINCOROS Bold 字体（`public/fonts/dincoros-bold.ttf`），同样随站点本地部署。
+项目简介根据对应公开 GitHub 仓库整理，每张项目卡片均链接至来源。频道保留用户提供的 https://sonavue.channel/ 入口。中文页面使用提供的「得意黑」字体，字体文件随站点本地部署（`public/fonts/smiley-sans.ttf`），不依赖 Google Fonts。英文页面使用系统默认字体，不加载额外字体文件。
 
 ## 构建
 
